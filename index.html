@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Edie homepage</title>
   </head>
-  <body class="max-w-[1332px] md:mx-auto  ">
-    <header class="mt-[13px] md:mt-[51px] md:px-4 px-8  hidden md:block">
+  <body class="">
+    <header class="mt-[13px] lg:mt-[51px] md:px-4 px-8  hidden md:block max-w-[1332px] md:mx-auto">
       <nav class="flex justify-between text-[#333333]">
         <h1 class="text-[24px] md:text-[36px] font-h1 font-extrabold">Edie</h1>
-        <ul class="md:flex items-center font-medium text-[14px] md:text-[24px] gap-8">
+        <ul class="md:flex items-center font-medium text-[14px] sm:text-[20px] lg:text-[24px] gap-8">
           <li class="listemenu"><a href="#">Home</a></li>
           <li class="listemenu"><a href="#">Services</a></li>
           <li class="listemenu"><a href="#">Our Works</a></li>
@@ -21,7 +21,7 @@
       </nav>
     </header>
 
-    <header class="mt-[13px] md:mt-[51px] md:px-4  md:hidden">
+    <header class="mt-[13px] md:mt-[51px] px-6 md:hidden max-w-[1332px] md:mx-auto">
       <nav class="flex justify-between text-[#333333]">
         <h1 class="text-[24px] md:text-[36px] font-h1 font-extrabold">Edie</h1>
         <button id="menu" class="w-6 h-6 gap-1 flex flex-col justify-between cursor-pointer">
@@ -29,7 +29,7 @@
             <span class="w-full h-1 bg-black rounded"></span>
             <span class="w-full h-1 bg-black rounded"></span>
         </button>
-        <ul id="menuContent" class="flex fixed inset-0 flex-col text-[#333333] font-semibold bg-opacity-90 bg-[#e3d0c9] items-center justify-center text-[18px] -translate-y-full md:text-[24px] ease-in duration-700 gap-8 md:hidden">
+        <ul id="menuContent" class="flex fixed inset-0  z-50 flex-col text-[#333333] font-semibold  bg-[#e3d0c9] items-center justify-center text-[18px] -translate-y-full md:text-[24px] ease-in duration-700 gap-8 md:hidden">
           <button id="menuClose" class="cursor-pointer top-0 right-0">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="black" d="M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14s14-6.2 14-14S23.8 2 16 2zm0 26C9.4 28 4 22.6 4 16S9.4 4 16 4s12 5.4 12 12s-5.4 12-12 12z"/><path fill="black" d="M21.4 23L16 17.6L10.6 23L9 21.4l5.4-5.4L9 10.6L10.6 9l5.4 5.4L21.4 9l1.6 1.6l-5.4 5.4l5.4 5.4z"/></svg>          </button>
           <li class="listemenu"><a href="#">Home</a></li>
@@ -41,18 +41,18 @@
       </nav>
     </header>
     
-    <main class=" font-p mt-[48px] md:mt-[104px] md:px-4 px-8">
-      <div class=" gap-4 font-medium md:ml-[277px] ml-[40px]">
+    <main class=" font-p mt-[48px] md:mt-[104px]  px-8 max-w-[1332px] md:mx-auto">
+      <div class=" gap-4 font-medium lg:ml-[277px] ">
         <p class="text-[#2D9CDB] text-[12px] md:text-[18px] ">Unhappy with your website?</p>
-        <p class="text-[24px] md:text-[48px] text-[#333333] w-[272px] md:w-[543px]">We create beautiful and fast web services</p>
+        <p class="text-[24px] lg:text-[48px]  sm:text-[36px] sm:w-[443px] text-[#333333] w-[272px] lg:w-[543px]">We create beautiful and fast web services</p>
       </div>
 
       <div class="mt-[15px] md:mt-[42px]">
         <img src="public/heroImage.jpg" alt="#" class="w-full h-[145px] md:w-[1332px] md:h-[354px] rounded-[18px] object-cover">
       </div>
 
-      <div class="mt-[22px] md:mt-[42px] w-[227px] md:w-[366px] font-medium md:ml-[277px] ml-[40px] ">
-        <p class="text-[#333333] text-[24px] md:text-[48px] ">Story, emotion and purpose</p>
+      <div class="mt-[22px] md:mt-[42px] w-[227px] lg:w-[366px] sm:w-[290px] font-medium md:ml-[277px]  reveal-9 ">
+        <p class="text-[#333333] text-[24px] lg:text-[48px] sm:text-[36px]">Story, emotion and purpose</p>
         <p class="text-[12px] md:text-[18px] font-normal text-[#4F4F4F] mt-[33px] md:mt-[42px]">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
         <p class="text-[#828282] text-[10px] md:text-[14px] font-medium  mt-[31px] md:mt-[42px]">Want us to contact you?</p>
         <div class="md:w-[350px] md:h-[57px] w-[291px] h-[47px] rounded-xl bg-[#F2F2F2] mt-[9px] font-medium ">
@@ -62,36 +62,36 @@
           </div> 
         </div>
       </div>
-      <div class="md:mx-40 sm:mx-auto mx-0">
-        <p class="w-[259px] md:w-[346px] text-[24px] md:text-[36px] font-medium text-[#333333] mt-[102px] md:mt-[200px] ">We offer high demand services</p>
+      <div class="sm:mx-auto mx-0">
+        <p class="w-[259px] md:w-[346px] text-[24px] md:text-[36px] font-medium text-[#333333] mt-[102px] md:mt-[200px] sm:mx-40 lg:ml-24 reveal-1">We offer high demand services</p>
 
-        <div class="md:mt-[42px]  mt-[46px] md:flex  space-x-0 gap-[72px] md:gap-0 ">
-          <div class="w-[341px] h-[422px] group  hover:cursor-pointer hover:rounded-3xl hover:shadow-effect p-[34px] ">
+        <div class="md:mt-[42px] mt-[46px]  sm:mx-40 lg:flex lg:justify-between gap-[72px] lg:gap-x-6 lg:ml-[112px] reveal-1">
+          <div class="w-full md:w-[341px]  h-[422px] group  hover:cursor-pointer hover:rounded-3xl hover:shadow-effect p-8 ">
             <div class="w-[67px] h-[67px] bg-[#2D9CDB] flex items-center justify-center rounded-2xl "><svg xmlns="http://www.w3.org/2000/svg" class="w-[36px] h-[36px]" viewBox="0 0 24 24"><path fill="white" d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83l3.75 3.75l1.83-1.83z"/></svg></div>
             <p class="mt-[35px] text-[24px] text-[#333333] font-bold">UI/UX Design</p>
-            <p class="w-[273px] mt-[24px] text-[#4F4F4F] text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <p class="w-full md:w-[273px] mt-[24px] text-[#4F4F4F] text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
             <button class="mt-[30px] rounded-xl group-hover:bg-[#2D9CDB] group-hover:text-[#FFFFFF]  bg-[#E0E0E0] w-[116px] h-[42px] text-[#828282] text-[16px] font-medium flex items-center justify-center">Get started</button>
           </div>
 
-          <div class="w-[341px] h-[422px] group hover:rounded-3xl hover:shadow-effect hover:cursor-pointer p-[34px]">
+          <div class="w-full md:w-[341px]  h-[422px] group hover:rounded-3xl hover:shadow-effect hover:cursor-pointer p-8 reveal-2">
             <div class="w-[67px] h-[67px] bg-[#27AE60] flex items-center justify-center rounded-2xl "><svg xmlns="http://www.w3.org/2000/svg" class="w-[36px] h-[36px]" viewBox="0 0 24 24"><path fill="white" d="m8 18l-6-6l6-6l1.425 1.425l-4.6 4.6L9.4 16.6L8 18Zm8 0l-1.425-1.425l4.6-4.6L14.6 7.4L16 6l6 6l-6 6Z"/></svg></div>
             <p class="mt-[35px] text-[24px] text-[#333333] font-bold">Front End</p>
-            <p class="w-[273px] mt-[24px] text-[#4F4F4F] text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <p class="w-full md:w-[273px] mt-[24px] text-[#4F4F4F] text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
             <button class="mt-[30px] rounded-xl group-hover:bg-[#2D9CDB] group-hover:text-[#FFFFFF] bg-[#E0E0E0] w-[116px] h-[42px] text-[#828282] text-[16px] font-medium flex items-center justify-center">Get started</button>
           </div>
         
-          <div class="w-[341px] h-[422px]  hover:cursor-pointer group hover:rounded-3xl hover:shadow-effect  p-[34px] ">
+          <div class="w-full md:w-[341px]  h-[422px]  hover:cursor-pointer group hover:rounded-3xl hover:shadow-effect  p-8 reveal-3 ">
             <div class="w-[67px] h-[67px] bg-[#EB5757] flex items-center justify-center rounded-2xl "><svg xmlns="http://www.w3.org/2000/svg" class="w-[36px] h-[36px]" viewBox="0 0 24 24"><path fill="white" d="M3 20v-4h18v4H3Zm2-1h2v-2H5v2ZM3 8V4h18v4H3Zm2-1h2V5H5v2Zm-2 7v-4h18v4H3Zm2-1h2v-2H5v2Z"/></svg></div>
             <p class="mt-[35px] text-[24px] text-[#333333] font-bold">Back End</p>
-            <p class="w-[273px] mt-[24px] text-[#4F4F4F] text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <p class="w-full md:w-[273px] mt-[24px] text-[#4F4F4F] text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
             <button class="mt-[30px] rounded-xl group-hover:bg-[#2D9CDB] group-hover:text-[#FFFFFF] bg-[#E0E0E0] w-[116px] h-[42px] text-[#828282] text-[16px] font-medium flex items-center justify-center">Get started</button>
           </div>
           
         </div>
 
-        <p class="text-[#333333] text-[24px] md:text-[36px] font-medium w-[267px] md:w-[448px] mt-[146px] md:mt-[194px]">Good design means good business</p>
+        <p class="text-[#333333] text-[24px] md:text-[36px] font-medium w-[267px] md:w-[448px] mt-[146px] md:mt-[194px] lg:mx-24 reveal-4">Good design means good business</p>
 
-        <div class="md:flex md:space-x-[20px] space-x-0 gap-[36px] md:gap-0 mt-[48px] md:mt-[12px] ">
+        <div class="md:flex md:space-x-[20px] space-x-0 gap-[36px] md:gap-0 mt-[48px] md:mt-[12px] lg:mx-24 reveal-5">
           <div class="md:mt-[188px]">
             <img src="public/smarthome.jpg" class="w-[350.99px] h-[350.99px] md:w-[543.02px] md:h-[544.15px] rounded-[24px] object-cover" alt="#">
             <p class=" text-[12px] md:text-[14px] font-light text-[#828282] md:mt-[19.85px] mt-[12.59px] ">Full stack application</p>
@@ -99,19 +99,19 @@
           </div>
           <div >
             <img src="public/onboard.png" class="w-[350.99px] h-[350.99px] md:w-[543.02px] md:h-[544.15px] rounded-[24px] object-cover" alt="">
-            <p class="text-[#828282] text-[12px] md:text-[14px]font-light  md:mt-[19.85px] mt-[12.59px] ">UX/UI design</p>
+            <p class="text-[#828282] text-[12px] md:text-[14px]font-light  md:mt-[19.85px] mt-[12.59px]">UX/UI design</p>
             <p class="text-[18px] md:text-[24px] font-medium text-[#333333]">Onboard application</p>
           </div>
         </div>
 
-        <div class=" md:flex md:mt-[13.55px] mt-[36px] md:space-x-[20px] space-x-0 md:gap-0 gap-[36px]">
+        <div class=" md:flex md:mt-[13.55px] mt-[36px] md:space-x-[20px] space-x-0 md:gap-0 gap-[36px] lg:mx-24 reveal-6">
           <div class="md:mt-[141.57px] mt-0">
             <img src="public/booking.png" class="w-[351px] h-[362.17px] md:w-[543.02px] md:h-[544.15px] rounded-[24px] object-cover" alt="#">
             <p class=" text-[12px] md:text-[14px] font-light text-[#828282] md:mt-[19.85px] mt-[12.59px] ">Mobile application</p>
             <p class="text-[18px] md:text-[24px] font-medium text-[#333333]">Booking system</p>
           </div>
           <div>
-            <img src="public/juice-product.png" class="w-[350.09px] h-[350.72px] md:w-[543px] md:h-[546px] rounded-[24px] object-cover" alt="">
+            <img src="public/juice-product.png" class="w-[350.09px] h-[350.72px] md:w-[543px] md:h-[546px] rounded-[24px] object-cover" alt="#">
             <p class="text-[#828282] text-[12px] md:text-[14px]font-light  md:mt-[19.85px] mt-[12.59px]">Front End application</p>
             <p class="text-[18px] md:text-[24px] font-medium text-[#333333]">Juice product homepage</p>
             <div class="flex md:justify-end items-center gap-2 md:mt-[133.03px] mt-[35.64px]">
@@ -121,7 +121,7 @@
           </div>
         </div>
 
-        <div class="md:mt-[241px] mt-[100px] md:flex md:justify-between">
+        <div class="md:mt-[241px] mt-[100px] md:flex md:justify-between lg:mx-24 reveal-7">
           <div class="md:mt-[130px] mt-[78.38px]">
             <p class="text-[#EB5757] text-[18px] font-medium">Meet the team</p>
             <p class="text-[#333333] text-[36px] font-medium w-[280px] mt-[7px]">We are chilled and a laidback team</p>
@@ -141,23 +141,21 @@
             </div>
           </div>
         </div>
-        <div class="mt-[100.31px] md:mt-[196px] font-medium ">
-          <p class="text-[#333333] md:text-[36px] text-[24px] w-[351px] md:w-[957px] leading-[36px] md:leading-[54px]">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
+        <div class="mt-[100.31px] md:mt-[196px] font-medium lg:mx-40 reveal-8">
+          <p class="text-[#333333] md:text-[36px] text-[24px] w-full lg:w-full leading-[36px] md:leading-[54px]">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
           <div class="flex space-x-[30px] mt-[27px] md:mt-[45px]">
             <img src="public/person4.png" alt="#" class="w-[82px] h-[82px] rounded-xl object-cover">
             <p class="text-[#333333] text-[24px]">Carlos Tran <br><span class=" mt-[12px] text-[#828282] text-[18px]">The Decorate Gatsby</span></p>
           </div>
         </div> 
        
-
-
         
     </div>
 
     </main>
 
-    <footer class="w-full md:h-[385px] h-[693px] bg-[#100E1D] mt-[100px] md:mt-[200px] font-p flex flex-col">
-      <div class="md:flex md:mx-[165px] md:justify-between ml-[41px] mt-9 md:mt-[49px]">
+    <footer class="w-full md:h-[385px] h-[693px]  bg-[#100E1D] mt-[100px] md:mt-[200px] font-p flex flex-col">
+      <div class="md:flex lg:mx-[165px] md:justify-between sm:mx-4 ml-[41px] mt-9 md:mt-[49px]">
         <ul class="font-normal leading-[36px] text-[#FFFFFF] text-[18px]">
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
@@ -175,7 +173,7 @@
         </div>
         <div>
           <p class="text-[#F2F2F2] text-[10px] md:text-[14px] font-medium  mt-[66px] md:mt-[49px]">Want us to contact you?</p>
-          <div class="md:w-[350px] md:h-[57px] w-[291px] h-[47px] rounded-xl bg-[#F2F2F2] mt-[9px] font-medium ">
+          <div class="md:w-[350px] md:h-[57px] w-auto h-[47px] rounded-xl bg-[#F2F2F2] mt-[9px] font-medium ">
             <div class="flex items-center justify-between ">
               <input type="email" name="e-mail" placeholder="Email" class=" text-[14px]  md:text-[14px] outline-none appearance-none ml-[19px] md:ml-[21px] bg-transparent " >
               <button class="bg-[#2D9CDB] rounded-xl w-[71px] h-[39px] md:w-[94px] md:h-[49px] m-1 text-[14px] md:text-[18px] text-center text-[#F2F2F2]">Join</button>
@@ -184,7 +182,7 @@
         </div>
         
       </div>
-      <div class="text-[14px] font-p items-center justify-center font-medium text-[#F2F2F2] flex text-center mt-[154px] md:mt-[126px]">
+      <div class="text-[14px] font-p items-center justify-center font-medium text-[#F2F2F2] flex text-centersm  sm:mt-[94px] mt-[154px] lg:mt-[126px]">
         <p>created by <a href="#" class="font-bold">nellycaitano</a> <a href="https://devchallenges.io/"> - devChallenges.io </a></p>  
        </div>
 
@@ -204,25 +202,27 @@
       })
 
 
-      const ratio=0.2 
-      const options={
-        root:null,
-        rootMargin:"Opx",
-        threshold:ratio
-      }
+      const ratio = 0.2
+          const options = {
+              root: null,
+              rootMargin: "0px",
+              threshold: ratio
+            }
 
-      const handleIntersect = function(entries,observer){
-        entries.foreach(function(entry){
-          if(entry.instersectionRatio > ratio){
-            entry.target.classList.add('reveal-visible')
-          }
-        })
-      }
-
-      const observer=new IntersectionObserver(handleIntersect,options)
-      document.querySelectorAll('[class*="reveal-"]').forEach(function(r){
-        observer.observe(r)
-      })
+            const handleIntersect= function(entries,observer){
+              entries.forEach(function(entry) 
+              {
+                if(entry.intersectionRatio > ratio)
+                {
+                  entry.target.classList.add('reveal-visible')
+                  observer.unobserve(entry.target)
+                }                
+              });
+            }
+            const observer = new IntersectionObserver(handleIntersect, options)
+              document.querySelectorAll('[class*="reveal-"]').forEach(function(r) {
+                observer.observe(r)
+            })
 
     </script>
   </body>
